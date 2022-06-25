@@ -1,0 +1,35 @@
+HTML5 *abrindo e fechando tag*
+ex: <h1 class="titulo"> Título </h1>
+
+~Estrutura básica - HTML5~
+
+<!DOCTYPE html>
+<html>
+--<head>  |--> Armazena meta informações que um navegador necessita.
+----<meta> |--> Incode dos caracteres. ex: char7
+----<title></title>
+--</head>
+--<body>
+--</body>
+</html>
+
+~Semântica:~
+<section> |--> expressão genérica de conteúdo;
+<header> |--> cabeçalho da sua página ou de parte da página;
+<article> |--> conteúdo relevante, como um artigo de um blog;
+<aside> |--> conteúdo relacionado ao conteúdo principal da página. ex: biografia de um autor ou links relacionados;
+<footer> |--> rodapé da página ou de parte da página (article, section);
+<h1>-<h6> *Obs* - Só pode haver um h1 por página - "hierarquia de cadeia";
+
+~Tags para textos:~
+<h1> Título da página </h1>
+<h2> Título de seção </h2>
+<h3> Título do artigo> </h3>
+
+<p> conteúdo do artigo </p> |--> para textos maiores e mais densos, além de imagens e vídeos.
+
+~Tags para links~
+<a> link </a> |--> "âncora"
+<a href="https://www.linkedin.com/in/vin%C3%ADcius-redivo-aa206a236/"> LinkedIn </a>
+<a target="_blank">Link</a> |--> Usado para abrir o link em uma nova guia.
+
