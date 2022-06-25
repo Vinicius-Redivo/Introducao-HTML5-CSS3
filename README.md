@@ -3,3 +3,4 @@ Contém anotações e exemplos de estrutura básica, além de comandos básicos 
 
 ## Links úteis:
 [Embelezamento de página - MDN](https://developer.mozilla.org/pt-BR/)
+[Site para compressão de imagens](https://tinypng.com/)
