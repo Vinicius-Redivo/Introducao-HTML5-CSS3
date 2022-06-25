@@ -1,4 +1,4 @@
-HTML5 *abrindo e fechando tag*
+##HTML5: *abrindo e fechando tag*
 ex: <h1 class="titulo"> Título </h1>
 
 ~Estrutura básica - HTML5~
@@ -32,4 +32,83 @@ ex: <h1 class="titulo"> Título </h1>
 <a> link </a> |--> "âncora"
 <a href="https://www.linkedin.com/in/vin%C3%ADcius-redivo-aa206a236/"> LinkedIn </a>
 <a target="_blank">Link</a> |--> Usado para abrir o link em uma nova guia.
+
+~Tags para imagem:~
+<img>
+<img src="img/image.jpg">
+<img alt="Descrição da imagem"> |--> adiciona uma descrição da imagem quendo dá um erro e/ou não carrega a imagem;
+
+~Tags para listas:~
+<ul> |--> A ordem dos itens não é importante;
+ex: item 1
+    item 2
+
+<ol> |--> A ordem é importante;
+ex: 1. item 1
+    2. item 3
+    3. item 2
+
+<li> |--> é usado para adicionar um item dentro da lista.
+
+
+##CSS3: seletor ou grupo de seletores -> são apenas elementos html.
+id (no HTML) e . (no CSS) |--> Só usado uma vez na página.
+class (no HTML) e # (no CSS) |--> Sem restrições de uso.
+
+<link rel="stylesheet" href="style.css" |--> demonstra qual tipo de arquivo estamos adicionando. (no HTML)
+
+~Estilizando elementos:~
+conceito de box model -> é como é comumente chamado cada elemento no html;
+
+-margin -> espaçamento entre elementos;
+-border -> circundam o padding e o content, podendo mudar a largura e cor;
+-padding -> espaçamento entre a borda e o conteúdo;
+-content -> é o que seu bloco representa (texto, imagem, video).
+
+*Border:
+-largura: pixels, centímetros, milimetros,...
+-cor: blue, #0000ff, #505050,...
+-estilo: solid, dotted, dashed.
+
+border-radius -> permite arredondar os cantos de um elemento.
+
+~Estilizando textos~
+- font-family -> altera a fonte do texto;
+ ex: verdana, arial.
+- font-size -> altera o tamanho do texto;
+- font-style ->altera a aparência do texto;
+ ex: normal, italic.
+- font-weight -> altera o peso do texto;
+ ex: normal, bold.
+- text-transform -> altera o texto entre maiúsculas e minúsculas
+ ex: uppercase, lowercase, capitalize.
+- text-decoration -> usado para adicionar linhas.
+ ex: underline, overline, line-through.
+
+~Estilizando listas:~
+- list-style-type -> altera o marcador das listas;
+ ex:square, upper-roman, "1F44D".
+- list-style-image -> url("image.jpg");
+
+~Dimensão e Alinhamento:~
+
+width  |> ajustar a largura
+height |     e a altura.
+
+max-weidth |>   largura máxima e
+mas-height | altura máxima dos elementos.
+
+margin -> espaçamento entre elementos.
+
+text-align -> alinhar textos.
+
+
+
+
+
+
+
+
+
+
 
